@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Consulta de veículo</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 100%; min-height: 100%; background: #0c5a86; }
+    body { overflow-x: hidden; }
+    img { display: block; width: 100%; height: auto; }
+
+    .mobile { display: none; }
+    .desktop { display: block; }
+
+    @media (max-width: 900px) and (orientation: portrait) {
+      .mobile { display: block; }
+      .desktop { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <img class="mobile" src="celular.png" alt="Consulta de veículo">
+  <img class="desktop" src="pc.png" alt="Consulta de veículo">
+</body>
+</html>
